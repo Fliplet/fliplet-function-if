@@ -1,0 +1,27 @@
+{
+  "name": "IF condition",
+  "package": "com.fliplet.function.if",
+  "version": "1.0.0",
+  "icon": "img/icon.png",
+  "tags": ["type:function"],
+  "interface": {
+    "dependencies": [],
+    "assets": []
+  },
+  "build": {
+    "dependencies": [],
+    "assets": [
+      "js/build.js"
+    ]
+  },
+  "settings": {
+    "inputs": [
+      {
+        "name": "condition",
+        "type": "string",
+        "label": "Condition",
+        "placeholder": "myVariable === 'test'"
+      }
+    ]
+  }
+}
